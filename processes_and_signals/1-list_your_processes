@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# This script displays a list of all running processes in a user-oriented format with a hierarchical view.
+
+ps auxf --sort=-%cpu
