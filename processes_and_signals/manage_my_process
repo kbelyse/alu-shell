@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# File where process writes
+
+OUTPUT_FILE="/tmp/my_process"
+
+# Run indefinitely
+while true; do
+    echo "I am alive!" >> "$OUTPUT_FILE"
+    sleep 2
+done
